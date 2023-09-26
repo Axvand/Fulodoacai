@@ -12,7 +12,7 @@
     color: var(--cor2Yellow);
 }
 body{
-    background-color: rgb(238, 193, 238);
+    background-color: rgb(248, 228, 248);
 }
 .boxLogo{
     height: 70px;
@@ -30,11 +30,11 @@ body{
     text-decoration: none;
     color: white;
     font-family: 'Oswald', sans-serif;
-    color: yellow;
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px black;
 }
 .boxNav>a:hover{
-    color: green;
+    color: rgb(255, 239, 8);
 }
 .buttonNav{
     display: none;
