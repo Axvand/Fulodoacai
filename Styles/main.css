@@ -92,6 +92,60 @@ main{
     background: white;
 }
 
+/*=============================================*/
+
+
+.carrossel2{
+    height: 330px;
+    overflow-x: scroll;
+    background-color: rgb(110, 61, 110);
+}
+
+.carrossel2::-webkit-scrollbar {
+    width: 10px;  
+    height: 10px;             /* width of the entire scrollbar */   
+}
+  
+.carrossel2::-webkit-scrollbar-track {
+    background: rgba(128, 0, 128, 0);        /* color of the tracking area */
+  }
+  
+.carrossel2::-webkit-scrollbar-thumb {
+    background-color: rgba(70, 2, 70, 0.541);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid rgba(128, 0, 128, 0);  /* creates padding around scroll thumb */
+  }
+
+
+.boxCards2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 1800px;
+}
+.card2{
+    border-radius: 20px;
+    height: 260px;
+    width: 200px;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sobreNos{
+    height: 500px;
+}
 
 
 
