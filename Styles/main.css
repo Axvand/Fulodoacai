@@ -49,6 +49,7 @@ main{
     border-radius: 20px;
     height: 260px;
     width: 200px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425) ;
 }
 
 
@@ -90,6 +91,7 @@ main{
     height: 260px;
     width: 200px;
     background: white;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425) ;
 }
 
 /*=============================================*/
@@ -129,6 +131,7 @@ main{
     height: 260px;
     width: 200px;
     background: white;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425) ;
 }
 
 
