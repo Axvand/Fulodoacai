@@ -23,7 +23,7 @@
     padding: 20px;
 }
 .carrossel{
-    height: 330px;
+    height: 360px;
     overflow-x: scroll;
     background-image: linear-gradient(to bottom,  rgba(36, 3, 51, 0.925), rgba(5, 1, 8, 0.925));
    
@@ -49,13 +49,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    height: 320px;
     width: 2500px;
 }
 .card{
     background: rgb(255, 255, 255);
     border-radius: 20px;
-    height: 300px;
+    height: 320px;
     width: 200px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425);
     display: flex;
@@ -69,7 +69,7 @@
 
 
 .carrossel1{
-    height: 330px;
+    height: 370px;
     overflow-x: scroll;
     background-image: linear-gradient(to bottom,  rgba(36, 3, 51, 0.925), rgba(5, 1, 8, 0.925));
     
@@ -95,13 +95,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    height: 340px;
     width: 1350px;
 }
 .card1{
     background: rgb(250, 250, 250);
     border-radius: 20px;
-    height: 280px;
+    height: 320px;
     width: 200px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425);
     display: flex;
@@ -199,9 +199,42 @@
     font-family: 'Englebert', sans-serif;
     color: rgb(37, 37, 37);
     font-weight: bold;
+    margin-top: 10px;
 
 }
 .buttonCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 7px 0px 7px;
+    margin-top: 17px;
+    height: 30px;
+    background:rgb(219, 63, 1);
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.397);
+    margin-top: 30px;
+}
+.buttonCard1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 7px 0px 7px;
+    margin-top: 17px;
+    height: 30px;
+    background:rgb(219, 63, 1);
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.397);
+    margin-top: 30px;
+}
+.buttonCard2{
     display: flex;
     align-items: center;
     justify-content: center;
