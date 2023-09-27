@@ -165,10 +165,10 @@
 }
 .BoximgCard>img{
     object-fit: cover;
-    
+     border-radius: 20px;
 }
 .BoximgCard>img:hover{
-    border-radius: 20px;
+   
     height: 190px;
     animation: pulse;
     animation-duration: 1s;
