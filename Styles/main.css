@@ -171,12 +171,6 @@
     object-fit: cover;
      border-radius: 20px;
 }
-.BoximgCard>img:hover{
-    height: 190px;
-    animation: pulse;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
 .boxDescription{
     margin-top: 5px;
     width: 90%;
