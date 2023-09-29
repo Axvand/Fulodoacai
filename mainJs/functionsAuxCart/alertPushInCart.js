@@ -11,7 +11,5 @@ import Display from "../Sets/setNoneOurBlock.js"
             Display(boxCartAlert, 'none')  
         },200);
       
-        
     },1000)
-
 }
