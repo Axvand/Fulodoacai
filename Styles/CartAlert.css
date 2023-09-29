@@ -1,15 +1,17 @@
 .boxCartAlert{
     padding-top: 5px;
-    position: absolute;
+    position: fixed;
     top: 80px;
     right: 10px;
     height: 40px;
-    width: 200px;
+    width: 250px;
     background-color: rgba(0, 128, 0, 0.5);
     backdrop-filter: blur(7px);
     border-radius: 30px;
-    text-align: center;
-    display: none; 
+    text-align: center; 
+    animation: fadeInRight;
+    animation-duration: 1s;
+    display: none;
 
 }
 .boxCartAlert>h4{
@@ -18,5 +20,15 @@
     color: white;
     padding: 0px;
     text-shadow: 1px 1px 1px black;
+    margin-right: 20px;
     
+}
+.imgAlert{
+    position: absolute;
+    top: 3px;
+    right: 24px;
+    animation: pulse;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+
 }
