@@ -169,6 +169,7 @@
     border-radius: 5px;
     text-align: center;
     padding-top: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.753);
 }
 .preco{
     text-shadow: 1px 1px 1px black;

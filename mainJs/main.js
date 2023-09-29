@@ -1,9 +1,20 @@
 
 
 
-//==============nav===============
+//==============carrinho===============
+import OpenCart from "./functionsAuxCart/carrinho.js";
 
+const IconCart = document.querySelector('.cartBox')
+const  boxCarrinho = document.querySelector('.boxCarrinho')
+const carrinho = document.querySelector('.Carrinho')
 
+console.log(carrinho)
+
+    IconCart.addEventListener("click",()=>{
+         OpenCart(boxCarrinho, carrinho)
+    })
+
+   
 
 
 //==================CART===================

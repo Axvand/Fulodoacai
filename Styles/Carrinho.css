@@ -1,0 +1,59 @@
+.boxCarrinho{
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.856);
+    backdrop-filter: blur(7px); 
+    display: none;
+
+}
+.Carrinho{
+    height: 80%;
+    width: 300px;
+    background: rgba(36, 3, 51, 0.932);
+    padding-top: 20px;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    display: none;
+   
+}
+.Carrinho::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.Carrinho::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+.Carrinho::-webkit-scrollbar-thumb {
+    background: rgb(41, 5, 88);
+    border-radius: 10px;
+  }
+.Carrinho>h2{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.Carrinho>h3{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 8px;
+    margin-bottom: 4px;
+    
+}
+.boxCartPedidoScroll{
+    background-color: rgb(246, 216, 255);
+    height: 330px;
+    width: 265px;
+    border: 1px solid black;
+    margin-left: 7px;
+    border-radius: 10px;
+
+}
