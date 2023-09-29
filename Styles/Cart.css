@@ -1,0 +1,27 @@
+/*================cart============*/
+
+.cartBox{
+    position: fixed;
+    right: 6px;
+    bottom: 10px;
+    z-index:1;
+    height: 70px;
+    padding: 3px;
+    background: ;
+}
+.cart{
+    height: 55px;
+}
+.counterCart{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+/*================cart============*/

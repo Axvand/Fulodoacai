@@ -1,0 +1,22 @@
+.boxCartAlert{
+    padding-top: 5px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(0, 128, 0, 0.5);
+    backdrop-filter: blur(7px);
+    border-radius: 30px;
+    text-align: center;
+    display: none; 
+
+}
+.boxCartAlert>h4{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px;
+    text-shadow: 1px 1px 1px black;
+    
+}
