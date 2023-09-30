@@ -1,23 +1,18 @@
+//================carrinho================
 
-
-
-//==============carrinho===============
 import OpenCart from "./functionsAuxCart/carrinho.js";
 
 const IconCart = document.querySelector('.cartBox')
 const  boxCarrinho = document.querySelector('.boxCarrinho')
 const carrinho = document.querySelector('.Carrinho')
 
-console.log(carrinho)
-
     IconCart.addEventListener("click",()=>{
          OpenCart(boxCarrinho, carrinho)
     })
 
-   
-
 
 //==================CART===================
+
 import pushInTheCart from "./functionsAuxCart/pushInTheCart.js"; 
 
 
@@ -26,8 +21,6 @@ const buttonCardAcai = document.querySelectorAll('.buttonCard');//Açais
 const buttonCardANovidades = document.querySelectorAll('.buttonCard1');
 
 const boxCartAlert = document.querySelector('.boxCartAlert') //alerta
-console.log(boxCartAlert)
-
 const pedidos = []
 
 //=======FetchDoCardápio=======
@@ -52,10 +45,13 @@ fetch(urlJson,{
         pushInTheCart(buttonCardANovidades[y], pedidos, cardapio_Novidades[y],boxCartAlert)
     }
 
-
-
-
 })
+
+
+const boxPedidos = document.querySelector('.boxCartPedidoScrollInterno').innerHTML;
+
+
+
 
 
 
