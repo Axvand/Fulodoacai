@@ -13,6 +13,7 @@ const carrinho = document.querySelector('.Carrinho')
 //==================CART===================
 
 import pushInTheCart from "./functionsAuxCart/pushInTheCart.js"; 
+import CloseCart from "./functionsAuxCart/closeCarrinho.js";
 
 
 const urlJson = './cardapio/cardapio.json'
@@ -47,4 +48,9 @@ fetch(urlJson,{
     
 })
  
+const Carrinho = document.querySelector('.Carrinho');
+const bigBoxCart = document.querySelector('.boxCarrinho');
 
+bigBoxCart.addEventListener('click',()=>{
+    CloseCart(bigBoxCart, Carrinho)
+})
