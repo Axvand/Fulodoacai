@@ -6,7 +6,7 @@
             "prix": 54.50,
             "description":"Porção de 10 camarões Caribenho, empanados no coco.",
             "quantidade": 0,
-            "img":"./pratos/novPrato1.png"
+            "img":"./cardapio/pratos/novPrato1.png"
 
         }, 
         {
@@ -15,7 +15,7 @@
             "prix": 75.00,
             "description":"10 camarões Caribenho, empanados no coco, mais 01 açaí da casa 300ml puro, batido com xarope de Guaraná somente.",
             "quantidade": 0,
-            "img":"./pratos/novPrato2.png"
+            "img":"./cardapio/pratos/novPrato2.png"
 
         },
         {
@@ -24,7 +24,7 @@
             "prix": 42.50,
             "description":"Combo cuscuz com carne de sol desfiada + requeijão + shake de açaí 300ml.",
             "quantidade": 0,
-            "img":"./pratos/novPrato3.png"
+            "img":"./cardapio/pratos/novPrato3.png"
 
         }, 
         {
@@ -33,7 +33,7 @@
             "prix": 54.00,
             "description":"Hambúrguer artesanal de peito de frango moído, pão de sal com gergelim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa + shake de açaí 300ml",
             "quantidade": 0,
-            "img":"./pratos/novPrato4.png"
+            "img":"./cardapio/pratos/novPrato4.png"
 
         }
         , 
@@ -43,7 +43,7 @@
             "prix": 35.50,
             "description":"Hambúrguere artesanal de peito de frango moído, pão de sal com gergilim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa",
             "quantidade": 0,
-            "img":"./pratos/novPrato5.png"
+            "img":"./cardapio/pratos/novPrato5.png"
 
         }
         , 
@@ -53,7 +53,7 @@
             "prix": 64.50,
             "description":"Hambúrguere artesanal de peito de frango moído, pão de sal com gergilim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa + shake de açaí 300ml + Batata pequena",
             "quantidade": 0,
-            "img":"./pratos/novPrato6.png"
+            "img":"./cardapio/pratos/novPrato6.png"
 
         }
         
@@ -65,7 +65,7 @@
             "prix": 34.50,
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, Ovomaltine, leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca) Obs: intolerantes a lactose solicitar a retirada dos leites.",
             "quantidade": 0,
-            "img":"./pratos/prato1.png"
+            "img":"./cardapio/pratos/prato1.png"
 
         }, 
         {
@@ -74,7 +74,7 @@
             "prix": 34.50,
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, leite em pó, leite condensado, 02 sonhos de valsa + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca) Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
-            "img":"./pratos/prato2.png"
+            "img":"./cardapio/pratos/prato2.png"
 
         },
         {
@@ -83,7 +83,7 @@
             "prix": 33.00,
             "description":"Açaí batido com xarope de Guaraná, morango em fatias, leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca) Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
-            "img":"./pratos/prato3.png"
+            "img":"./cardapio/pratos/prato3.png"
 
         }, 
         {
@@ -92,7 +92,7 @@
             "prix": 34.50,
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, um sabor de mousse( maracujá, limão, morango ou cupuaçu), leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
-            "img":"./pratos/prato4.png"
+            "img":"./cardapio/pratos/prato4.png"
 
         }
         , 
@@ -102,7 +102,7 @@
             "prix": 34.50,
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, leite em pó, leite condensado, 1 bola de sorvete napolitano + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
-            "img":"./pratos/prato5.png"
+            "img":"./cardapio/pratos/prato5.png"
 
         }
         , 
@@ -112,7 +112,7 @@
             "prix": 34.50,
             "description":"Açaí batido com xarope de Guaraná, duas frutas em fatias entre: banana, morango ou abacaxi, mais dois complementos: ganola, amendoim, confetes ou paçoca mais leite em pó e leite condensado. Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
-            "img":"./pratos/prato6.png"
+            "img":"./cardapio/pratos/prato6.png"
 
         },
         {
@@ -121,7 +121,7 @@
             "prix": 30.50,
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
-            "img":"./pratos/prato7.png"
+            "img":"./cardapio/pratos/prato7.png"
 
         }, 
         {
@@ -130,7 +130,7 @@
             "prix": 34.50,
             "description":"Açaí batido com xarope de Guaraná,frutas em fatias (banana, morango, abacaxi, mamão e manga), leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites.",
             "quantidade": 0,
-            "img":"./pratos/prato8.png"
+            "img":"./cardapio/pratos/prato8.png"
 
         },
         {
@@ -139,7 +139,7 @@
             "prix": 25.00,
             "description":"Beiju massa especial da casa, recheado com frango e requeijão.",
             "quantidade": 0,
-            "img":"./pratos/prato9.png"
+            "img":"./cardapio/pratos/prato9.png"
 
         }, 
         {
@@ -148,7 +148,7 @@
             "prix": 37.50,
             "description":"Beiju massa especial da casa, recheado com frango e requeijão mais creme de açaí. (somente com creme de açaí de 300 ml).",
             "quantidade": 0,
-            "img":"./pratos/prato10.png"
+            "img":"./cardapio/pratos/prato10.png"
 
         }, 
         {
@@ -157,7 +157,7 @@
             "prix": 54.00,
             "description":"Creme de morango 300ml: morango batido com leite e leite condensadocreme de açaí 300ml: açaí batido com xarope de Guaraná mais leite creme de maracujá: poupa de maracujá, batido com leite e leite condensado ao pedir esse item especifiquem qual o sabor do creme (morango, maracujá ou açaí).",
             "quantidade": 0,
-            "img":"./pratos/prato11.png"
+            "img":"./cardapio/pratos/prato11.png"
 
         }
         
