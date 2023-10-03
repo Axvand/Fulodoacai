@@ -16,9 +16,6 @@ export default function pushInTheCart(button, cart, item_Cardapio, Alert,i){
             const counter = parseInt(document.querySelector('.counterCart').innerHTML-1)
             PushPedido( pedidos[counter].img, pedidos[counter].title, pedidos[counter].description, pedidos[counter].prix )
 
-
-
-
         //
         
 

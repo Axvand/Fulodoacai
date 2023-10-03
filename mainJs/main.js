@@ -20,6 +20,7 @@ import ExcluirPedido from "./functionsAuxCart/excluirPedido.js";
 const urlJson = './cardapio/cardapio.json'
 const buttonCardAcai = document.querySelectorAll('.buttonCard');//Açais
 const buttonCardANovidades = document.querySelectorAll('.buttonCard1');
+const buttonCardAcompanhamentos = document.querySelectorAll('.buttonCard2');
 
 const boxCartAlert = document.querySelector('.boxCartAlert') //alerta
 export const pedidos = []
@@ -45,6 +46,9 @@ fetch(urlJson,{
     for(var y = 0; y<cardapio_Novidades.length; y++){
         pushInTheCart(buttonCardANovidades[y], pedidos, cardapio_Novidades[y],boxCartAlert,y)
     }
+    for(var z = 0; z<cardapio_Acompanhamentos.length; z++){
+        pushInTheCart(buttonCardAcompanhamentos[z], pedidos, cardapio_Acompanhamentos[z],boxCartAlert,z)
+    }
 
 
     
@@ -61,7 +65,7 @@ sideCarrinho.addEventListener('click', ()=>{
 })
 
 
-//Tirando os items do carrinho e da array
+//Tirando os items do carrinho e da array (O CLICK DO ICONEDECARRINHO ESTÁ ATUALIZANDO A VARIAVEL PARA PODER EXCLUIR OS ITENSDOCARRINHO(ARRAY) MAIS OS CARDS)
 
 export default function atualizarVariavel(){
 
