@@ -38,19 +38,22 @@ fetch(urlJson,{
  
     //pushCart na Primeira parte do cardápio "Açais"
     for(var i = 0; i<cardapio_Açais.length; i++){
-        pushInTheCart(buttonCardAcai[i], pedidos, cardapio_Açais[i],boxCartAlert)
+        pushInTheCart(buttonCardAcai[i], pedidos, cardapio_Açais[i],boxCartAlert,i)
     }
     //pushCart na Segunda parte do cardápio "Novidades"
     for(var y = 0; y<cardapio_Novidades.length; y++){
-        pushInTheCart(buttonCardANovidades[y], pedidos, cardapio_Novidades[y],boxCartAlert)
+        pushInTheCart(buttonCardANovidades[y], pedidos, cardapio_Novidades[y],boxCartAlert,y)
     }
 
     
 })
  
-const Carrinho = document.querySelector('.Carrinho');
-const bigBoxCart = document.querySelector('.boxCarrinho');
 
-bigBoxCart.addEventListener('click',()=>{
-    CloseCart(bigBoxCart, Carrinho)
+
+const sideCarrinho = document.querySelector('.sideCarrinho')
+const boxCart = document.querySelector('.boxCarrinho')
+const counterCart = document.querySelector('.counterCart');
+
+sideCarrinho.addEventListener('click', ()=>{
+    CloseCart( boxCart)
 })

@@ -53,12 +53,20 @@ export function PushPedido( img,title, description,prix ){
 
             let Prix = document.createElement('p')
             AppendChild(functionsPedido, Prix)
-            let content3 = document.createTextNode(`Preço: R$${preco.replace('.',',')}`)
+            let content3 = document.createTextNode(`Preço: R$${preco.replace('.',',')}0`)
             AppendChild(Prix, content3)
 
             let qtdPedido = document.createElement('div')
             SetAttribute('class', 'qtdPedido', qtdPedido)
-            AppendChild(functionsPedido, qtdPedido)     
+            AppendChild(functionsPedido, qtdPedido)    
+            
+            let excluirPedido = document.createElement('div')
+            SetAttribute('class','excluirPedido', excluirPedido)
+            AppendChild(functionsPedido, excluirPedido)
+                let imgIcon = document.createElement('img')
+                AppendChild(excluirPedido, imgIcon)
+                SetAttribute('height', '30px', imgIcon) 
+                SetAttribute('src', '../imgs/botao-x.png', imgIcon)
 
             let br2 = document.createElement('br')
             AppendChild(pedido, br2)
@@ -86,7 +94,7 @@ export function PushPedido( img,title, description,prix ){
                         <div class="functionsPedido">
                             <p class="preço">Preço: 20,00</p>
                             <div class="qtdPedido"></div>
-                            <div class="excluirPedido"></div>
+                            <div class="excluirPedido"><img height="30px" src="imgs/botao-x.png" alt=""></div>
                         </div>
                     </div> 
                 </div><br> */

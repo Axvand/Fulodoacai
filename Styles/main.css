@@ -23,7 +23,7 @@
     padding: 20px;
 }
 .carrossel{
-    height: 360px;
+    height: 390px;
     overflow-x: scroll;
     background-image: linear-gradient(to bottom,  rgba(36, 3, 51, 0.925), rgba(5, 1, 8, 0.925));
     background-color: black;
@@ -50,14 +50,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 320px;
+    height: 360px;
     width: 2500px;
 }
 .card{
     background: rgb(255, 255, 255);
     border-radius: 20px;
-    height: 320px;
-    width: 200px;
+    height: 345px;
+    width: 220px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425);
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@
 
 
 .carrossel1{
-    height: 370px;
+    height: 390px;
     overflow-x: scroll;
     background-image: linear-gradient(to bottom,  rgba(36, 3, 51, 0.925), rgba(5, 1, 8, 0.925));
     
@@ -97,14 +97,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 340px;
+    height: 360px;
     width: 1350px;
 }
 .card1{
     background: rgb(250, 250, 250);
     border-radius: 20px;
-    height: 320px;
-    width: 200px;
+    height: 345px;
+    width: 220px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425);
     display: flex;
     align-items: center;
@@ -116,7 +116,7 @@
 
 
 .carrossel2{
-    height: 330px;
+    height: 390px;
     overflow-x: scroll;
     background-image: linear-gradient(to bottom,  rgba(36, 3, 51, 0.925), rgba(5, 1, 8, 0.925));
     
@@ -142,14 +142,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
+    height: 360px;
     width: 1800px;
 }
 .card2{
     background: rgb(250, 250, 250);
     border-radius: 20px;
-    height: 280px;
-    width: 200px;
+    height: 345px;
+    width: 220px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.425);
     display: flex;
     align-items: center;

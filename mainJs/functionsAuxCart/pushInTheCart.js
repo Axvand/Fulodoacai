@@ -2,8 +2,9 @@
 import IncrementCounterCart from "./IncrementCounterCart.js"
 import CartAlert from "./alertPushInCart.js"
 import { PushPedido } from "./pushPedidos.js"
+import { pedidos } from "../main.js"
 
-export default function pushInTheCart(button, cart, item_Cardapio, Alert,cart_title){
+export default function pushInTheCart(button, cart, item_Cardapio, Alert,i){
 
 
     //CLICK QUE DISPARA
@@ -11,10 +12,17 @@ export default function pushInTheCart(button, cart, item_Cardapio, Alert,cart_ti
         cart.push(item_Cardapio)
         IncrementCounterCart(cart)
         CartAlert(Alert)
-        console.log(cart)
-    })
-}
+        
+       // PushPedido( pedidos[i].img, pedidos[i].title, pedidos[i].description, pedidos[i].prix )
+            const counter = parseInt(document.querySelector('.counterCart').innerHTML-1)
 
+            PushPedido( pedidos[counter].img, pedidos[counter].title, pedidos[counter].description, pedidos[counter].prix )
+
+})
+
+}
+    
+//})
 
 /* async function getPedido(){
     let response = await fetch(pedidos);
