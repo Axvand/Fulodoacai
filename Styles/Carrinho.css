@@ -166,7 +166,16 @@
     width: 100px;
 }
 
+/*==========================================================*/
 
+.textObservacao{
+    height: 280px;
+    width: 220px;
+    padding: 20px;
+    border: 1px solid transparent;
+}
+
+/*==========================================================*/
 
 .excluirPedido{
     height: 26px;
