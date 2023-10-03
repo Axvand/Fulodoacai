@@ -14,6 +14,7 @@ const carrinho = document.querySelector('.Carrinho')
 
 import pushInTheCart from "./functionsAuxCart/pushInTheCart.js"; 
 import CloseCart from "./functionsAuxCart/closeCarrinho.js";
+import ExcluirPedido from "./functionsAuxCart/excluirPedido.js";
 
 
 const urlJson = './cardapio/cardapio.json'
@@ -45,6 +46,7 @@ fetch(urlJson,{
         pushInTheCart(buttonCardANovidades[y], pedidos, cardapio_Novidades[y],boxCartAlert,y)
     }
 
+
     
 })
  
@@ -52,8 +54,28 @@ fetch(urlJson,{
 
 const sideCarrinho = document.querySelector('.sideCarrinho')
 const boxCart = document.querySelector('.boxCarrinho')
-const counterCart = document.querySelector('.counterCart');
+export const counterCart = document.querySelector('.counterCart');
 
 sideCarrinho.addEventListener('click', ()=>{
     CloseCart( boxCart)
 })
+
+
+//Tirando os items do carrinho e da array
+
+export default function atualizarVariavel(){
+
+    const buttonExcluirPedido = document.querySelectorAll('.excluirPedido')
+    const cardPedido = document.querySelectorAll('.Pedido')
+    const inScroll = document.querySelector('.inScroll')
+   
+
+console.log(buttonExcluirPedido, cardPedido, pedidos)
+
+for (let i = 0; i < buttonExcluirPedido.length; i++) {
+    ExcluirPedido(buttonExcluirPedido[i],inScroll, cardPedido[i], pedidos[i])
+}
+
+   
+}
+

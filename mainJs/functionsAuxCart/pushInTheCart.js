@@ -4,22 +4,25 @@ import CartAlert from "./alertPushInCart.js"
 import { PushPedido } from "./pushPedidos.js"
 import { pedidos } from "../main.js"
 
+
 export default function pushInTheCart(button, cart, item_Cardapio, Alert,i){
-
-
-    //CLICK QUE DISPARA
+        //CLICK QUE DISPARA
     button.addEventListener('click', () => {
         cart.push(item_Cardapio)
         IncrementCounterCart(cart)
         CartAlert(Alert)
-        
-       // PushPedido( pedidos[i].img, pedidos[i].title, pedidos[i].description, pedidos[i].prix )
+     
+        //colocando o card nos pedidos
             const counter = parseInt(document.querySelector('.counterCart').innerHTML-1)
-
             PushPedido( pedidos[counter].img, pedidos[counter].title, pedidos[counter].description, pedidos[counter].prix )
 
-})
 
+
+
+        //
+        
+
+    })
 }
     
 //})

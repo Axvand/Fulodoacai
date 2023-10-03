@@ -140,9 +140,12 @@
     margin-bottom: 10px;
 }
 .descricaoPedido{
-    height: 65px;
+    height: 100px;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .descricaoPedido>p{
     font-size: 0.75em;
