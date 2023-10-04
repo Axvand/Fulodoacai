@@ -188,11 +188,12 @@
     justify-content: center;
     align-items: center;
     height: 250px;
+}
+label{
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 1px black;
-    color: white;
+    color: rgb(248, 245, 245);
 }
-
 
 /*==========================================================*/
 
