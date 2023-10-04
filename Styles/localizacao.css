@@ -1,3 +1,65 @@
 .Localização{
-    height: 600px;
+    padding-bottom: 20px;
 }
+.boxInfoText{
+    margin: 30px;
+}
+.textInfoLocalização{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 29px;
+}
+.bigBoxLocalizacao{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxLocalizacao {
+    background-color: rgb(23, 1, 44);
+    border: 1px solid black; 
+    min-width: 210px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.boxLocalizacao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inBoxLocalizacao1{
+    height: 300px; 
+    width: 300px;
+    margin: 20px;
+    background-image: url(../imgMapLocal/loja1Map.png);
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.mapInBox{
+    height: 300px; 
+    width: 300px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0),rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+.inBoxLocalizacao2{
+    margin: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 320px; 
+    width: 260px;
+    border-radius: 10px;
+    
+}
+
+

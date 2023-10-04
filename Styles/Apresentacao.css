@@ -17,7 +17,6 @@
 .imgBoxCardApresentaçao{
     height: 230px;
     width: 100%;
-    border: 1px solid white;
     margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 9px 6px 10px rgba(0, 0, 0, 0.363);
@@ -28,7 +27,7 @@
 
 }
 .imgCardApresentacao2{
-    background-image: url('../imgApresentacao/prato.png');
+    background-image: url('../imgApresentacao/prato2.png');
     background-size: cover;
 
 }
