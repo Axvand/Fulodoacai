@@ -1,0 +1,54 @@
+.sobreNos{
+    background-color:  rgba(32, 0, 48, 0.925);
+}
+.bigBoxApresentacao{
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.textApresentacao{
+    width: 320px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.imgBoxCardApresentaçao{
+    height: 230px;
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 9px 6px 10px rgba(0, 0, 0, 0.363);
+}
+.imgCardApresentacao1{
+    background-image: url('../imgApresentacao/Estabelecimento.png');
+    background-size: cover;
+
+}
+.imgCardApresentacao2{
+    background-image: url('../imgApresentacao/prato.png');
+    background-size: cover;
+
+}
+.imgCardApresentacao3{
+    background-image: url('../imgApresentacao/Equipe.png');
+    background-size: cover;
+
+}
+.textCardApresentação{
+    line-height: 28px;
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.986);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+
+/*
+Bem-vindos ao nosso Restaurante de Açaí Gourmet! Aqui, transformamos essa frutinha super saborosa e nutritiva em pratos e sobremesas irresistíveis, que conquistam até os paladares mais exigentes. Somos uma referência quando se trata de açaí de qualidade, selecionando apenas as melhores frutas e rigorosamente inspecionadas para garantir que estamos servindo sempre o melhor para nossos clientes. Nosso cardápio é pensado para agradar a todos: desde açaí na tigela com frutas frescas e granola crocante, até receitas mais elaboradas, como crepes, brownies e shakes que combinam perfeitamente com o delicioso aroma e textura do nosso açaí. Além de deliciosas opções de açaí, ainda oferecemos combos especiais para tornar a experiência ainda mais completa. E, claro, nosso ambiente aconchegante e equipe sempre atenciosa, que fazem questão de tornar sua visita ao nosso Restaurante de Açaí Gourmet uma experiência memorável. Venha nos visitar e deixe o nosso açaí conquistar você também!
+*/
+

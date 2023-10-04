@@ -38,7 +38,7 @@ fetch(urlJson,{
     const cardapio_Novidades = res.Novidades
     const cardapio_Acompanhamentos = res.acompanhamento
  
-    //pushCart na Primeira parte do cardápio "Açais"
+    //pushCart na Primeira parte do cardápio "Açais"  A função PUshInTheCart é composta por outras minifunções
     for(var i = 0; i<cardapio_Açais.length; i++){
         pushInTheCart(buttonCardAcai[i], pedidos, cardapio_Açais[i],boxCartAlert,i)
     }
@@ -54,7 +54,7 @@ fetch(urlJson,{
     
 })
  
-
+//fechar o carrinho
 
 const sideCarrinho = document.querySelector('.sideCarrinho')
 const boxCart = document.querySelector('.boxCarrinho')
