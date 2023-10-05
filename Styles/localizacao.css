@@ -20,13 +20,11 @@
 }
 
 .boxInfoText>img{
-    filter:drop-shadow( 0px 0px 10px rgba(0, 0, 0, 0.938));
+    filter:drop-shadow( 7px 7px 1px rgba(0, 0, 0, 0.39));
 }
 .bigBoxLocalizacao{
-   
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
    
 }
@@ -34,7 +32,7 @@
     min-width: 210px;
     margin-top: 10px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
     background: rgba(36, 3, 51, 0.945);
 }
 .boxLocalizacao1 {
@@ -49,7 +47,7 @@
     margin: 20px;
     background-image: url(../imgMapLocal/loja1Map.png);
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 2px;
     
 }
 .mapInBox{
@@ -79,16 +77,30 @@
    
 }
 .titleMap{
+
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Passion One', cursive;
+    font-weight: lighter;
+    font-size: 1.4em;
+}
+
+.funcionamento{
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 2px black;
+    font-weight: bolder;
+
 }
 .contentMap{
-    text-align: center;
+    margin-left: 30px;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
-
-
+    text-shadow: 1px 1px 1px black;
+    font-family: 1em;
+    
 }
 
 
