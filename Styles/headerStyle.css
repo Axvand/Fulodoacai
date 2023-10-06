@@ -113,24 +113,10 @@ header{
     animation: pulse;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/**/
 @media only screen and (max-width: 705px) {
 
     .buttonNav{

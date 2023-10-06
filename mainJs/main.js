@@ -15,6 +15,8 @@ const carrinho = document.querySelector('.Carrinho')
 import pushInTheCart from "./functionsAuxCart/pushInTheCart.js"; 
 import CloseCart from "./functionsAuxCart/closeCarrinho.js";
 import ExcluirPedido from "./functionsAuxCart/excluirPedido.js";
+import { somaValue } from "./functionsAuxCart/ValueCart.js";
+import Encaminhar from "./functionsAuxCart/Encaminhamento.js";
 
 
 const urlJson = './cardapio/cardapio.json'
@@ -82,20 +84,7 @@ for (let i = 0; i < buttonExcluirPedido.length; i++) {
    
 }
 
+//========================Rncaminhamento de pedido=================================
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Encaminhar()

@@ -14,3 +14,16 @@ export function ValueCart(){
 
 //console.log(document.querySelector('.valorTotalPedido').innerHTML=`total:R$${x}`)
 }
+
+
+
+export function somaValue(pedidos){
+    let carrinho = 0
+
+    for(var i = 0 ; i< pedidos.length ; i++){
+        carrinho += parseFloat(pedidos[i].prix)
+
+    }
+
+    return preco = carrinho.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
+}
