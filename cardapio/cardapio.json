@@ -1,68 +1,9 @@
 {
-    "Novidades": [
-        {
-            "id": 1,
-            "title": "CAMARÃO CARIBENHO, EMPANADO NO COCO",
-            "prix": 54.50,
-            "description":"Porção de 10 camarões Caribenho, empanados no coco.",
-            "quantidade": 0,
-            "img":"./cardapio/pratos/novPrato1.png"
-
-        }, 
-        {
-            "id": 2,
-            "title": "COMBO CAMARÃO CARIBENHO, EMPANADO NO COCO MAIS AÇAÍ PURO DA CASA 300ML",
-            "prix": 75.00,
-            "description":"10 camarões Caribenho, empanados no coco, mais 01 açaí da casa 300ml puro, batido com xarope de Guaraná somente.",
-            "quantidade": 0,
-            "img":"./cardapio/pratos/novPrato2.png"
-
-        },
-        {
-            "id": 3,
-            "title": "COMBO CUSCUZ",
-            "prix": 42.50,
-            "description":"Combo cuscuz com carne de sol desfiada + requeijão + shake de açaí 300ml.",
-            "quantidade": 0,
-            "img":"./cardapio/pratos/novPrato3.png"
-
-        }, 
-        {
-            "id": 4,
-            "title": "COMBO SANDUBA FULÔ",
-            "prix": 54.00,
-            "description":"Hambúrguer artesanal de peito de frango moído, pão de sal com gergelim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa + shake de açaí 300ml",
-            "quantidade": 0,
-            "img":"./cardapio/pratos/novPrato4.png"
-
-        }
-        , 
-        {
-            "id": 5,
-            "title": "SANDUBA ARTESANAL FULÔ",
-            "prix": 35.50,
-            "description":"Hambúrguere artesanal de peito de frango moído, pão de sal com gergilim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa",
-            "quantidade": 0,
-            "img":"./cardapio/pratos/novPrato5.png"
-
-        }
-        , 
-        {
-            "id": 6,
-            "title": "TRIO SANDUBA FULÔ",
-            "prix": 64.50,
-            "description":"Hambúrguere artesanal de peito de frango moído, pão de sal com gergilim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa + shake de açaí 300ml + Batata pequena",
-            "quantidade": 0,
-            "img":"./cardapio/pratos/novPrato6.png"
-
-        }
-        
-    ],
     "Glaces": [
         {
             "id": 1,
             "title": "AÇAÍ COM OVOMALTINE",
-            "prix": 34.50,
+            "prix": "34.50",
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, Ovomaltine, leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca) Obs: intolerantes a lactose solicitar a retirada dos leites.",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato1.png"
@@ -71,7 +12,7 @@
         {
             "id": 2,
             "title": "AÇAÍ COM SONHO DE VALSA",
-            "prix": 34.50,
+            "prix": "34.50",
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, leite em pó, leite condensado, 02 sonhos de valsa + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca) Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato2.png"
@@ -80,7 +21,7 @@
         {
             "id": 3,
             "title": "AÇAÍ COM MORANGO",
-            "prix": 33.00,
+            "prix": "33.00",
             "description":"Açaí batido com xarope de Guaraná, morango em fatias, leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca) Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato3.png"
@@ -89,7 +30,7 @@
         {
             "id": 4,
             "title": "AÇAÍ COM MOUSSE",
-            "prix": 34.50,
+            "prix": "34.50",
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, um sabor de mousse( maracujá, limão, morango ou cupuaçu), leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato4.png"
@@ -99,7 +40,7 @@
         {
             "id": 5,
             "title": "AÇAÍ COM SORVETE",
-            "prix": 34.50,
+            "prix": "34.50",
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, leite em pó, leite condensado, 1 bola de sorvete napolitano + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato5.png"
@@ -109,7 +50,7 @@
         {
             "id": 6,
             "title": "AÇAÍ NA TAÇA",
-            "prix": 34.50,
+            "prix": "34.50",
             "description":"Açaí batido com xarope de Guaraná, duas frutas em fatias entre: banana, morango ou abacaxi, mais dois complementos: ganola, amendoim, confetes ou paçoca mais leite em pó e leite condensado. Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato6.png"
@@ -118,7 +59,7 @@
         {
             "id": 7,
             "title": "AÇAÍ TRADICIONAL",
-            "prix": 30.50,
+            "prix": "30.50",
             "description":"Açaí batido com xarope de Guaraná, banana em fatias, leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato7.png"
@@ -127,7 +68,7 @@
         {
             "id": 8,
             "title": "AÇAÍ TROPICAL",
-            "prix": 34.50,
+            "prix": "34.50",
             "description":"Açaí batido com xarope de Guaraná,frutas em fatias (banana, morango, abacaxi, mamão e manga), leite em pó, leite condensado + 2 complementos a sua escolha ( granola, amendoim, confetes ou paçoca). Obs: intolerantes a lactose solicitar a retirada dos leites.",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato8.png"
@@ -136,7 +77,7 @@
         {
             "id": 9,
             "title": "BEIJU",
-            "prix": 25.00,
+            "prix": "25.00",
             "description":"Beiju massa especial da casa, recheado com frango e requeijão.",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato9.png"
@@ -145,7 +86,7 @@
         {
             "id": 10,
             "title": "COMBO BEIJU +CREME DE AÇAÍ SOMENTE",
-            "prix": 37.50,
+            "prix": "37.50",
             "description":"Beiju massa especial da casa, recheado com frango e requeijão mais creme de açaí. (somente com creme de açaí de 300 ml).",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato10.png"
@@ -154,7 +95,7 @@
         {
             "id": 11,
             "title": "CREME DE MORANGO, MARACUJÁ OU DE AÇAÍ 300ML",
-            "prix": 54.00,
+            "prix": "54.00",
             "description":"Creme de morango 300ml: morango batido com leite e leite condensadocreme de açaí 300ml: açaí batido com xarope de Guaraná mais leite creme de maracujá: poupa de maracujá, batido com leite e leite condensado ao pedir esse item especifiquem qual o sabor do creme (morango, maracujá ou açaí).",
             "quantidade": 0,
             "img":"./cardapio/pratos/prato11.png"
@@ -162,39 +103,99 @@
         }
         
     ],
+    
+    "Novidades": [
+        {
+            "id": 12,
+            "title": "CAMARÃO CARIBENHO, EMPANADO NO COCO",
+            "prix": "54.50",
+            "description":"Porção de 10 camarões Caribenho, empanados no coco.",
+            "quantidade": 0,
+            "img":"./cardapio/pratos/novPrato1.png"
+
+        }, 
+        {
+            "id": 13,
+            "title": "COMBO CAMARÃO CARIBENHO, EMPANADO NO COCO MAIS AÇAÍ PURO DA CASA 300ML",
+            "prix": "75.00",
+            "description":"10 camarões Caribenho, empanados no coco, mais 01 açaí da casa 300ml puro, batido com xarope de Guaraná somente.",
+            "quantidade": 0,
+            "img":"./cardapio/pratos/novPrato2.png"
+
+        },
+        {
+            "id": 14,
+            "title": "COMBO CUSCUZ",
+            "prix": "42.50",
+            "description":"Combo cuscuz com carne de sol desfiada + requeijão + shake de açaí 300ml.",
+            "quantidade": 0,
+            "img":"./cardapio/pratos/novPrato3.png"
+
+        }, 
+        {
+            "id": 15,
+            "title": "COMBO SANDUBA FULÔ",
+            "prix": "54.00",
+            "description":"Hambúrguer artesanal de peito de frango moído, pão de sal com gergelim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa + shake de açaí 300ml",
+            "quantidade": 0,
+            "img":"./cardapio/pratos/novPrato4.png"
+
+        }
+        , 
+        {
+            "id": 16,
+            "title": "SANDUBA ARTESANAL FULÔ",
+            "prix": "35.50",
+            "description":"Hambúrguere artesanal de peito de frango moído, pão de sal com gergilim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa",
+            "quantidade": 0,
+            "img":"./cardapio/pratos/novPrato5.png"
+
+        }
+        , 
+        {
+            "id": 17,
+            "title": "TRIO SANDUBA FULÔ",
+            "prix": "64.50",
+            "description":"Hambúrguere artesanal de peito de frango moído, pão de sal com gergilim, queijo cheddar, ovo, alface americana, tomate, requeijão e maionese especial da casa + shake de açaí 300ml + Batata pequena",
+            "quantidade": 0,
+            "img":"./cardapio/pratos/novPrato6.png"
+
+        }
+        
+    ],
 
     "acompanhamento": [
         {
-            "id": 1,
+            "id": 18,
             "title": "REFRIGERANTE EM LATA",
-            "prix": 10.00,
+            "prix":"10.00",
             "description":"Coca cola, Guaraná ou Fanta, se for pedir esse item especifiquem o sabor",
             "quantidade": 0,
             "img":""
 
         }, 
         {
-            "id": 2,
+            "id": 19,
             "title": "PORÇÃO FRUTA MORANGO",
-            "prix": 6.50,
+            "prix": "6.50",
             "description":"Morango em fatias",
             "quantidade": 0,
             "img":""
 
         },
         {
-            "id": 3,
+            "id": 20,
             "title": "PORÇÃO DE COMPLEMENTOS",
-            "prix": 2.50,
+            "prix": "2.50",
             "description":"Além dos complementos que já vão nos açaís, caso queiram mais a parte disponibilizamos as porções: granola, amendoim ou paçoca, caso solicitem esse item, especifiquem qual o complemento a mais, lembrando que é um por cada valor.",
             "quantidade": 0,
             "img":""
 
         }, 
         {
-            "id": 4,
+            "id": 21,
             "title": "SUCOS",
-            "prix": 16.50,
+            "prix": "16.50",
             "description":"Sucos da poupa nos sabores: maracujá, limão ou acerola 300ml ao pedir esse item especifiquem o sabor, eles não vão batido com açúcar",
             "quantidade": 0,
             "img":""
@@ -202,9 +203,9 @@
         }
         , 
         {
-            "id": 5,
+            "id": 22,
             "title": "PORÇÃO FRUTA BANANA",
-            "prix": 5.00,
+            "prix": "5.00",
             "description":"Banana em rodelas",
             "quantidade": 0,
             "img":""
@@ -212,27 +213,27 @@
         }
         , 
         {
-            "id": 6,
+            "id": 23,
             "title": "PORÇÃO FRUTA MAMÃO",
-            "prix": 6.50,
+            "prix": "6.50",
             "description":"Mamão em pedacinhos",
             "quantidade": 0,
             "img":"./pratos/prato6.png"
 
         },
         {
-            "id": 7,
+            "id": 24,
             "title": "PORÇÃO FRUTA MANGA",
-            "prix": 6.50,
+            "prix": "6.50",
             "description":"Manga em pedacinhos",
             "quantidade": 0,
             "img":""
 
         },
         {
-            "id": 8,
+            "id": 25,
             "title": "PORÇÃO FRUTA ABACAXI",
-            "prix": 6.50,
+            "prix": "6.50",
             "description":"Abacaxi em pedacinhos",
             "quantidade": 0,
             "img":""

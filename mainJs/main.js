@@ -38,14 +38,15 @@ fetch(urlJson,{
     const cardapio_Novidades = res.Novidades
     const cardapio_Acompanhamentos = res.acompanhamento
  
-    //pushCart na Primeira parte do cardápio "Açais"  A função PUshInTheCart é composta por outras minifunções
+    //pushCart na Primeira parte do cardápio "Açais"  A função PUshInTheCart é composta por outras minifunções//
     for(var i = 0; i<cardapio_Açais.length; i++){
         pushInTheCart(buttonCardAcai[i], pedidos, cardapio_Açais[i],boxCartAlert,i)
     }
-    //pushCart na Segunda parte do cardápio "Novidades"
+    //pushCart na Segunda parte do cardápio "Novidades"//
     for(var y = 0; y<cardapio_Novidades.length; y++){
         pushInTheCart(buttonCardANovidades[y], pedidos, cardapio_Novidades[y],boxCartAlert,y)
     }
+    //pushCart na Segunda parte do cardápio "Acompanhamentos"//
     for(var z = 0; z<cardapio_Acompanhamentos.length; z++){
         pushInTheCart(buttonCardAcompanhamentos[z], pedidos, cardapio_Acompanhamentos[z],boxCartAlert,z)
     }
@@ -72,9 +73,7 @@ export default function atualizarVariavel(){
     const buttonExcluirPedido = document.querySelectorAll('.excluirPedido')
     const cardPedido = document.querySelectorAll('.Pedido')
     const inScroll = document.querySelector('.inScroll')
-   
 
-console.log(buttonExcluirPedido, cardPedido, pedidos)
 
 for (let i = 0; i < buttonExcluirPedido.length; i++) {
     ExcluirPedido(buttonExcluirPedido[i],inScroll, cardPedido[i], pedidos[i])
@@ -82,4 +81,21 @@ for (let i = 0; i < buttonExcluirPedido.length; i++) {
 
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
