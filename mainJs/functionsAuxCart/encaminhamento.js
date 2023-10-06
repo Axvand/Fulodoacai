@@ -20,8 +20,8 @@ finalizar.addEventListener('click',()=>{
     const localidade = document.querySelector('.localidade').value
     const resumoDosPedidos = pedidos.map(pedido => {
         return `
-        ${pedido.title} 
-        ${pedido.prix}`
+        Item:${pedido.title}; Preço${pedido.prix}
+        `
     })
  let carrinho = 0
 
@@ -52,6 +52,8 @@ finalizar.addEventListener('click',()=>{
 
     `)
 
+
+    
 
 })
 
