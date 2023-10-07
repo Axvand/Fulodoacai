@@ -12,5 +12,5 @@
     font-size: 1em;
     background-color: rgb(10, 36, 0);
     animation: fadeInLeft;
-    animation-duration: 3s;
+    animation-duration: s;
 }

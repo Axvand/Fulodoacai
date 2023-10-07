@@ -16,6 +16,7 @@ import pushInTheCart from "./functionsAuxCart/pushInTheCart.js";
 import CloseCart from "./functionsAuxCart/closeCarrinho.js";
 import ExcluirPedido from "./functionsAuxCart/excluirPedido.js";
 import Encaminhar from "./functionsAuxCart/encaminhamento.js";
+import Letreiro from "./functionsAuxCart/letreiro.js";
 
 
 const urlJson = './cardapio/cardapio.json'
@@ -82,21 +83,7 @@ for (let i = 0; i < buttonExcluirPedido.length; i++) {
 
    
 }
-
 //========================Rncaminhamento de pedido=================================
-
-
 Encaminhar()
-
-/*
-PORÇÃO FRUTA MORANGO
-PORÇÃO DE COMPLEMENTOS
-SUCOS
-PORÇÃO FRUTA BANANA
-PORÇÃO FRUTA MAMÃO
-PORÇÃO FRUTA MAMGA
-PORÇÃO FRUTA ABACAXÍ 
-*/
-
-
-
+//========================Letreiro================================
+Letreiro()
