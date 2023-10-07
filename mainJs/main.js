@@ -88,3 +88,16 @@ for (let i = 0; i < buttonExcluirPedido.length; i++) {
 
 
 Encaminhar()
+
+/*
+PORÇÃO FRUTA MORANGO
+PORÇÃO DE COMPLEMENTOS
+SUCOS
+PORÇÃO FRUTA BANANA
+PORÇÃO FRUTA MAMÃO
+PORÇÃO FRUTA MAMGA
+PORÇÃO FRUTA ABACAXÍ 
+*/
+
+
+

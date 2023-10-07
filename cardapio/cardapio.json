@@ -171,7 +171,7 @@
             "prix":"10.00",
             "description":"Coca cola, Guaraná ou Fanta, se for pedir esse item especifiquem o sabor",
             "quantidade": 0,
-            "img":""
+            "img":"./cardapio/pratos/AcomPrato1.jpg"
 
         }, 
         {
@@ -180,7 +180,7 @@
             "prix": "6.50",
             "description":"Morango em fatias",
             "quantidade": 0,
-            "img":""
+            "img":"./cardapio/pratos/AcomPrato2.jpg"
 
         },
         {
@@ -189,7 +189,7 @@
             "prix": "2.50",
             "description":"Além dos complementos que já vão nos açaís, caso queiram mais a parte disponibilizamos as porções: granola, amendoim ou paçoca, caso solicitem esse item, especifiquem qual o complemento a mais, lembrando que é um por cada valor.",
             "quantidade": 0,
-            "img":""
+            "img":"./cardapio/pratos/AcomPrato3.webp"
 
         }, 
         {
@@ -198,7 +198,7 @@
             "prix": "16.50",
             "description":"Sucos da poupa nos sabores: maracujá, limão ou acerola 300ml ao pedir esse item especifiquem o sabor, eles não vão batido com açúcar",
             "quantidade": 0,
-            "img":""
+            "img":"./cardapio/pratos/AcomPrato4.jpg"
 
         }
         , 
@@ -208,7 +208,7 @@
             "prix": "5.00",
             "description":"Banana em rodelas",
             "quantidade": 0,
-            "img":""
+            "img":"./cardapio/pratos/AcomPrato5.webp"
 
         }
         , 
@@ -218,7 +218,7 @@
             "prix": "6.50",
             "description":"Mamão em pedacinhos",
             "quantidade": 0,
-            "img":"./pratos/prato6.png"
+            "img":"./cardapio/pratos/AcomPrato6.jfif"
 
         },
         {
@@ -227,7 +227,7 @@
             "prix": "6.50",
             "description":"Manga em pedacinhos",
             "quantidade": 0,
-            "img":""
+            "img":"./cardapio/pratos/AcomPrato7.jpg"
 
         },
         {
@@ -236,7 +236,7 @@
             "prix": "6.50",
             "description":"Abacaxi em pedacinhos",
             "quantidade": 0,
-            "img":""
+            "img":"./cardapio/pratos/AcomPrato8.jpeg"
 
         }
     ]
