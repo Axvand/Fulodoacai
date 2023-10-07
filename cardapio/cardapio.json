@@ -169,8 +169,8 @@
             "id": 18,
             "title": "REFRIGERANTE EM LATA",
             "prix":"10.00",
-            "description":"Coca cola, Guaraná ou Fanta, se for pedir esse item especifiquem o sabor",
-            "quantidade": 0,
+            "description":"Coca cola, Guaraná ou Fanta, se for pedir esse item especifiquem o sabor no campo de observação.",
+            "quantidade": 0, 
             "img":"./cardapio/pratos/AcomPrato1.jpg"
 
         }, 

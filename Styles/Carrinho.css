@@ -97,7 +97,7 @@
 .Pedido{
     border-radius: 5px;
     border: 1px solid black;
-    height: 230px;
+    height: 240px;
     background-color: rgb(13, 5, 27);
     color: white;
     padding: 3px;
@@ -143,6 +143,9 @@
     height: 100px;
     width: 100%;
     text-align: center;
+    line-height:17px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,8 +207,8 @@ label{
     display: flex;
     justify-content: center;
     align-items: start;
-    margin-left: 8px;
-    margin-bottom: 12px;
+    margin-right: 5px;
+    margin-top: 8px;
     background-image: url(../imgs/botao-x.png);
     background-size: 26px;
 }

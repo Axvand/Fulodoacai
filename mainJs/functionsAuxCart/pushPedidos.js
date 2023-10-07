@@ -54,6 +54,7 @@ export function PushPedido( img,title, description,prix ){
             let Prix = document.createElement('p')
             AppendChild(functionsPedido, Prix)
             let content3 = document.createTextNode(`Preço: R$${preco.replace('.',',')}`)
+            
             AppendChild(Prix, content3)
 
             let qtdPedido = document.createElement('div')
