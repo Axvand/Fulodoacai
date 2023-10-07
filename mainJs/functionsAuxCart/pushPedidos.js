@@ -66,7 +66,6 @@ export function PushPedido( img,title, description,prix ){
                 let imgIcon = document.createElement('img')
                 AppendChild(excluirPedido, imgIcon)
                 SetAttribute('height', '30px', imgIcon) 
-                SetAttribute('src', '../imgs/botao-x.png', imgIcon)
 
             let br2 = document.createElement('br')
             AppendChild(pedido, br2)
