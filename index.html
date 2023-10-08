@@ -14,10 +14,21 @@
     <link rel="stylesheet" href="Styles/localizacao.css">
     <link rel="stylesheet" href="./Styles/footer.css">
     <link rel="stylesheet" href="Styles/letreiro.css">
+    <link rel="stylesheet" href="Styles/preload.css">
     <title>Fulô Do Açaí</title>
 </head>
 
 <body>
+    <div class="preLoad" onload="PreLoad()">
+        <div class="preloadContent preloadBox1">
+             <img src="LogoImg/logo.png" height="200px" alt="Logo Fulo do Açaí" >
+
+        </div>
+        <div class="preloadContent preloadBox2">
+          <div class="boxMove"></div>
+        </div>
+    </div>
+    <div class="content" style="display: none;">
 
     <nav class="boxLogo">
         <div class="boxNav boxNav1">
@@ -723,7 +734,7 @@
         <a href="">ssssssssss</a>
 
         <p class="infoFooter">
-             5, Av. Elmo Serejo, s/n
+           -  5, Av. Elmo Serejo, s/n
 Taguatinga, Brasília
 DF, 72016-012 <br>
             - Tel: (11) 1234-5678 <br>
@@ -762,6 +773,9 @@ DF, 72016-012 <br>
     <span class="boxCartAlert">
         <h4>Pedido adicionado</h4> <img class="imgAlert" height="30px" src="imgs/joinha.png">
     </span>
+
+
+</div>
 
     <script src="mainJs/main.js" type="module"></script>
     <!--=====================================-->

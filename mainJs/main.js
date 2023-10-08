@@ -1,3 +1,7 @@
+//================PreLoad================
+import PreLoad from "./functionsAuxCart/preload.js";
+PreLoad()
+
 //================carrinho================
 
 import OpenCart from "./functionsAuxCart/carrinho.js";
