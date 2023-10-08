@@ -6,6 +6,6 @@ export default function PreLoad(){
         document.querySelector('.content').style.animationDuration='500ms'
 
         document.querySelector('.content').style.display='block'
-    }, 2300);
+    }, 2000);
     
 }
