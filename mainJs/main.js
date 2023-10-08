@@ -2,6 +2,10 @@
 import PreLoad from "./functionsAuxCart/preload.js";
 PreLoad()
 
+//================ButtonNav================
+import { NavBar } from "./functionsAuxCart/navMobile.js";
+NavBar()
+
 //================carrinho================
 
 import OpenCart from "./functionsAuxCart/carrinho.js";

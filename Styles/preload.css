@@ -10,8 +10,7 @@
 .preloadContent{
     width: 200px;
     height: 200px;
-    
-    
+
 }
 
 .preloadBox1{
@@ -46,10 +45,10 @@
         transform: translateX(0%);
     }50%{
         
-        transform: translateX(700%);
+        transform: translateX(450%);
     }100%{
         
-        transform: translateX(-200%);
+        transform: translateX(-50%);
     }
   
     
