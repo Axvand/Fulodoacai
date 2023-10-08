@@ -50,7 +50,9 @@ finalizar.addEventListener('click',()=>{
 
     const resumoDosPedidos = pedidos.map(pedido => {
         return `
-        Item:${pedido.title}; Preço:${pedido.prix}
+        Item:${pedido.title}, Preço:${pedido.prix};;;
+
+
         `
     })
  let carrinho = 0
@@ -83,17 +85,10 @@ finalizar.addEventListener('click',()=>{
 
     `)
 
-    const link = `https://api.whatsapp.com/send?phone=5561996081625&text=Cliente:%20%20${Nome}%0A_____________________%0AEndere%C3%A7o%20Do%20Cliente:%20%0ACep:%20${cep};%0ABairro:%20${bairro};%20%0ALogradouro:%20${logradouro};%0ALocalidade:%20${localidade};%0ALote%20:%20${lote}%0A_____________________%0AValor%20total:%0A${carrinho}%0A_____________________%0AObserva%C3%A7%C3%A3o:%20%0A${textObservacao}0A____________%20%0APedidos%20Do%20Carrinho:%20%0A${resumoDosPedidos}%0A`
+    const link = ` https://api.whatsapp.com/send?phone=5561996081625&text=Cliente:%20%20${Nome}%0A_____________________%0AEndere%C3%A7o%20Do%20Cliente:%20%0ACep:%20CEP;%0ABairro:%20${bairro};%20%0ALogradouro:%20${logradouro};%0ALocalidade:%20${localidade};%0ALote%20:%20${lote}%0A_____________________%0AValor%20total:%0A${carrinho.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}%0A_____________________%0AObserva%C3%A7%C3%A3o:%20%0A${textObservacao}%0A____________%20%0APedidos%20Do%20Carrinho:%20%0A${resumoDosPedidos}%0A`
 
     SetAttribute('href',link, finalizar)
     
 })
 
  }
-
-
-
-
- /** 
-  https://api.whatsapp.com/send?phone=5561996081625&text=Cliente:%20%20NOME%0A_____________________%0AEndere%C3%A7o%20Do%20Cliente:%20%0ACep:%20CEP;%0ABairro:%20BAIRRO;%20%0ALogradouro:%20LOUGRADOURO;%0ALocalidade:%20LOCALIDADE;%0ALote%20:%20LOTE%0A_____________________%0AValor%20total:%0ATOTALAPAGAR%0A_____________________%0AObserva%C3%A7%C3%A3o:%20%0AOBSERVACAO%0A____________%20%0APedidos%20Do%20Carrinho:%20%0APEDIDOS%0A
- */
