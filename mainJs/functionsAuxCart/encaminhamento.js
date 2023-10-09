@@ -26,7 +26,7 @@ export default function Encaminhar(){
     
     // em caso de erro:
     }catch(error){
-        document.querySelector('.AlertCep').style.display='block'
+       console.log('Nao encontrado')
     }
         
     })
@@ -45,7 +45,7 @@ const textObservacao = document.querySelector('.textObservacao').value;
     const cep = document.querySelector('.cep').value
     const bairro = document.querySelector('.bairro').value
     const logradouro = document.querySelector('.logradouro').value
-    const localidade = document.querySelector('.localidade').value
+    const localidade = document.querySelector('.localidade').value 
     const lote = document.querySelector('.lote').value
 
     const resumoDosPedidos = pedidos.map(pedido => {
