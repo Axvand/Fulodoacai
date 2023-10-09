@@ -4,7 +4,7 @@ export default function Letreiro() {
     const horas = data.getHours()
     const minutos = data.getMinutes()
 
-    if(horas<13||horas>21){
+    if(horas<14||horas>21){
         letreiro.innerHTML= 'Fechado'
         letreiro.style.color = 'red'
         letreiro.style.borderColor = 'red'
